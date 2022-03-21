@@ -1,0 +1,12 @@
+<!-- templates/inicio.html -->
+{% extends 'paginas/_layout.html' %} 
+
+{% block title %}Ficha  Pediátrica{% endblock title %} 
+
+{% block contenido %} 
+  {% load static %}
+  <hr>
+  
+  <img src="{% static 'img/pediatra.png' %}" class="img-fluid" alt="imagen aquí">
+
+{% endblock contenido %}
